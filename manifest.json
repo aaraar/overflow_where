@@ -1,0 +1,18 @@
+{
+  "name": "Overflow WHERE!?",
+  "version": "1.0",
+  "description": "Log items outside of viewport to help with developing dashboard layouts",
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {},
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "manifest_version": 2
+}
